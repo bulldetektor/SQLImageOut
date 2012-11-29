@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <StartArguments>"Provider=SQLOLEDB;Data Source=MySQLServer;Initial Catalog=Priority1+_Dev;Integrated Security=SSPI;" "SELECT TOP 10 convert(varchar(50), ElementImageID)+'.jpg', Media from tbl_GEO_ElementImage"</StartArguments>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <StartArguments>"Provider=SQLOLEDB;Data Source=MySQLServer;Initial Catalog=Priority1+_Dev;Integrated Security=SSPI;" "SELECT TOP 10 convert(varchar(50), ElementImageID)+'.jpg', Media from tbl_GEO_ElementImage"</StartArguments>
+  </PropertyGroup>
+</Project>
