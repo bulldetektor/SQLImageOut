@@ -3,12 +3,10 @@ SQLImageOut
 
 Extracts binary/jpg data from SQLServer database from a simple query
 
-SQLImageOut v1.0.4716.24474
-
 --------------------------------------------------
 
     Usage:
-    RunSQLOLEDB "[connection string]" "[query]"
+    SQLImageOut "[connection string]" "[query]"
     
     e.g.
     To extact all images from table Image into separate files 1.jpg, 2.jpg, etc.
